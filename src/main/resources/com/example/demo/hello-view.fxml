@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: LightCyan;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+
+      <Label graphicTextGap="10.0" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="146.0" text="Save Money">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="411.0" layoutY="301.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Войти" />
+      <TextField layoutX="186.0" layoutY="259.0" prefHeight="25.0" prefWidth="274.0" />
+      <TextField layoutX="186.0" layoutY="214.0" prefHeight="25.0" prefWidth="274.0" />
+      <Label layoutX="213.0" layoutY="147.0" prefHeight="53.0" prefWidth="175.0" text="Регистрация">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="218.0" text="Логин:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="263.0" text="Пароль:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+
+</Pane>
